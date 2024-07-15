@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'package:get/get.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:yoked/Localization/translation_message.dart';
 import 'package:yoked/Routes/app_pages.dart';
 import 'package:yoked/Routes/app_routes.dart';
@@ -37,14 +36,6 @@ class MyApp extends StatelessWidget {
         supportedLocales: const [
           Locale("en", "US"), // English, no country code
           Locale("ar", "AE"), // Spanish, no country code
-        ],
-        locale: Get.deviceLocale,
-
-        ///It used to handle the direction of widgets while using RTL and LTR on both Material and Cupertino
-        localizationsDelegates: const [
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
-          GlobalCupertinoLocalizations.delegate,
         ],
       ),
     );
