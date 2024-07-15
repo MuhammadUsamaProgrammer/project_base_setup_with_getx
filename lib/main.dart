@@ -33,10 +33,6 @@ class MyApp extends StatelessWidget {
 
         ///It contains the all the string used in app
         translations: Translation(),
-        supportedLocales: const [
-          Locale("en", "US"), // English, no country code
-          Locale("ar", "AE"), // Spanish, no country code
-        ],
       ),
     );
   }
