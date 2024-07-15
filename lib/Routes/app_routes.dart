@@ -2,4 +2,6 @@
 
 mixin AppRoutes {
   static const splashView = "/";
+  static const homeView = "/homeView";
+  static const productDiscriptionView = "/productDiscriptionView";
 }

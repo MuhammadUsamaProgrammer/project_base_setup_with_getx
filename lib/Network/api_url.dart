@@ -1,5 +1,5 @@
 class ApiUrl {
-  static const baseUrl = "https://profiles.traderverse.io/api/";
+  static const baseUrl = "https://fakestoreapi.com/";
 
-  static const checkUserName = "${ApiUrl.baseUrl}auth/validateusername";
+  static const products = "${ApiUrl.baseUrl}products";
 }

@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:get/get.dart';
+import 'package:yoked/Routes/app_routes.dart';
 
 class SplashViewModel extends GetxController {
   Timer? timer;
@@ -12,7 +13,9 @@ class SplashViewModel extends GetxController {
     });
   }
 
-  navigateTo() async {}
+  navigateTo() async {
+    Get.offAllNamed(AppRoutes.homeView);
+  }
 
   @override
   void dispose() {
